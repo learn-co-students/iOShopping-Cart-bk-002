@@ -20,6 +20,20 @@
                ReferencedContainer = "container:iOShoppingCart.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "725C3296191BEA500050AE4C"
+               BuildableName = "iOShoppingCartTests.xctest"
+               BlueprintName = "iOShoppingCartTests"
+               ReferencedContainer = "container:iOShoppingCart/iOShoppingCart.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -56,6 +70,16 @@
                ReferencedContainer = "container:iOShoppingCart.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "725C3296191BEA500050AE4C"
+               BuildableName = "iOShoppingCartTests.xctest"
+               BlueprintName = "iOShoppingCartTests"
+               ReferencedContainer = "container:iOShoppingCart/iOShoppingCart.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
@@ -76,7 +100,8 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "725C327B191BEA500050AE4C"
@@ -94,7 +119,8 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "725C327B191BEA500050AE4C"
